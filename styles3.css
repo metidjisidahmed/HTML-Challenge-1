@@ -1,0 +1,46 @@
+*{
+    transition: background-color 3s , width 2s;
+    transition-timing-function: steps(2, end);
+}
+
+#first_div {
+    color : red;
+    border : 10px solid green
+}
+
+
+#second_div{
+    width: 700px;
+    margin: 20px 40px;
+    padding : 40px 30px 20px 10px;
+    /*border:  dashed purple 10px;*/
+    border-width: 10px;
+    border-color: purple;
+    border-style: dashed;
+    background-color: orange;
+
+
+}
+
+
+#second_div:hover {
+    background-color: blue;
+    width: 200px;
+}
+
+#join{
+    padding: 20px 30px;
+    color: white;
+    background-color: #18c22e7d;
+    border-radius: 20px;
+    border-width: 0px;
+    font-size: 1.5rem;
+}
+#join:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+/*p  {*/
+/*    border : 10px solid green*/
+
+/*}*/

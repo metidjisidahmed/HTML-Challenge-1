@@ -1,0 +1,102 @@
+/*p {*/
+/*    background-color: green;*/
+/*}*/
+
+
+
+.underlined{
+    text-decoration: underline;
+}
+
+/*div p {*/
+/*    background-color: red;*/
+/*}*/
+
+/*#grand_father p {*/
+/*    background-color: chocolate;.*/
+
+/*}*/
+
+#grand_father > p {
+    background-color: limegreen;
+}
+
+#big_brother + p {
+    font-size: 30px;
+}
+
+label+input{
+    background-color: gray;
+}
+
+input[type="number"]{
+    padding: 40px;
+}
+
+#hover_me{
+    background-color: blue;
+    color: white;
+}
+
+#hover_me:hover{
+    cursor: pointer;
+    background-color: deepskyblue ;
+    font-size: 30px;
+}
+
+
+#go_to_google {
+    color: red
+}
+
+#go_to_google:visited{
+    color: green;
+}
+
+#go_to_google:active{
+    color: pink;
+}
+
+
+b:first-child {
+    font-size: 40px;
+}
+
+
+tr:first-child{
+    background-color: chocolate;
+}
+
+tr:last-child{
+    background-color: lightblue;
+}
+/*tr:nth-child(3){*/
+/*    background-color: purple;*/
+/*}*/
+
+/*0,2,4,6,8,10,12,14*/
+#mouloudia tr:nth-child(2n){
+    background-color: green;
+}
+/*1,3,5,7,9,11,13,15,17*/
+#mouloudia tr:nth-child(2n+1){
+    background-color: red;
+}
+
+/*3,6,9,12,15*/
+#allemagne tr:nth-child(3n){
+    background-color: red;
+}
+/*4,7,10*/
+#allemagne tr:nth-child(3n+1){
+    background-color:black;
+}
+
+/*5,8,11*/
+#allemagne tr:nth-child(3n+2){
+    background-color: yellow;
+}
+
+#independent:first-letter{
+    font-size: 50px;
+}
